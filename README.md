@@ -1,5 +1,5 @@
 # Multithread Tron Brute force
-Nodejs script that generates random private keys for the Tron blockchain and checks if the corresponding public address is in a list of addresses stored in a file named ‘data.txt’. If a match is found, the script logs the public address and saves the wallet and its private key (seed) to a file named ‘match.txt’. The script uses the cluster module to create worker processes for each CPU and runs the generate function repeatedly with no delay.
+Nodejs script that offline generates random private keys for the Tron blockchain and checks if the corresponding public address is in a list of addresses stored in a file named ‘data.txt’. If a match is found, the script logs the public address and saves the wallet and its private key (seed) to a file named ‘match.txt’. The script uses the cluster module to create worker processes for each CPU and runs the generate function repeatedly with no delay.
 
 ## Installation
 1. Clone this repository
