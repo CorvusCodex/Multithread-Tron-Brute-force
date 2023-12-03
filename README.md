@@ -7,7 +7,7 @@ Nodejs script that offline generates random private keys for the Tron blockchain
 
 ## Usage
 1. Add the addresses you want to check against to a file named ‘data.txt’, with one address per line.
-2. Run node index.js to start the script.
+2. Run node app.js to start the script.
 
 ## Support
 Support my work:
